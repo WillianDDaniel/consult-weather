@@ -1,4 +1,5 @@
-const key = "42635e3cbf75489f4211bf361420053f"
+
+const key = '42635e3cbf75489f4211bf361420053f'
 
 function colocarDadosNaTela(dados){
     console.log(dados)
@@ -25,6 +26,7 @@ async function buscarCidade(cidade){
 
 function pesquisarTemperatura(){
     if(document.querySelector(".input-cidade").value !== "") {
+
     let cidade = document.querySelector(".input-cidade").value
     buscarCidade(cidade) 
     } else {

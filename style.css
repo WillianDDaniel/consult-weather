@@ -7,13 +7,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-/*.navigation {
-    width: 100vw;
-    height: 11vh;
-    background-color: #051e96;
-    position: absolute;
-} */ /* Comentado é a linha de cima da barra de navegação*/
-
 body header {
     width: 100%;
     display: flex;
@@ -46,7 +39,6 @@ body header {
     color: tomato;
 }
 
-
 #menuToggle input {
     display: block;
     width: 40px;
@@ -54,7 +46,6 @@ body header {
     position: absolute;
     top: -7px;
     left: -5px;
-
     cursor: pointer;
 
     opacity: 0;
@@ -130,7 +121,7 @@ body header {
     margin: -100px 0 0 -50px;
     padding: 30px;
     padding-top: 125px;
-
+    
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -140,6 +131,10 @@ body header {
     transform: translate(-100%, 0);
 
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
 }
 
 #menu li {
@@ -186,6 +181,7 @@ body header {
     width: 75%;
     height: 40px;
     border-radius: 10px;
+    padding-left: 5px;
 }
 
 .button {

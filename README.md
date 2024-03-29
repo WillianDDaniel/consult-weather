@@ -1,65 +1,38 @@
-Olá mundo!     && Text in English below &&
+# Consultar Clima e Temperatura
 
-Este é meu primeiro projeto, e também a primeira vez que utilizo GitHub.
-Venho estudando Desenvolvimento Front-End à algum tempo. 
+Este é um projeto simples que busca a temperatura atual, máxima e mínima de uma cidade usando a API do OpenWeather. O aplicativo é totalmente responsivo e pode ser acessado em qualquer dispositivo.
 
-Durante uma aula, o professor propos a criação de um site, para aprendermos na prática como criar sites.
+## Sobre o Projeto
 
-Este site tem por finalidade trazer informações sobre o clima e a temperatura de uma cidade, através de uma pesquisa pelo nome da cidade. Utilizando uma API pública chamada OpenWeatherMap para realizar a consulta.
+Este projeto foi desenvolvido como parte do meu aprendizado em desenvolvimento web. É uma adaptação e melhoramento de um projeto que fiz em aula, e um dos meus primeiros projetos pessoais.
 
-Com isso, eu resolvi criar a minha própria versão, para colocar em prática o que eu venho aprendendo.
+## Funcionalidades
 
-Tecnologias utilizadas no Projeto:
--> HTML, CSS E JAVASCRIPT;
+- Busca a temperatura atual de uma cidade específica
+- Mostra a temperatura máxima e mínima
+- Exibe um ícone representativo do clima atual
 
-API utilizada no Projeto:
--> site: https://openweathermap.org/;
--> API Current Weather Data;
+## Tecnologias Utilizadas
 
-Extras: Melhorias que eu coloquei no projeto, em relação a aula:
--> adicionei um layout mais responsivo e com menos linhas de código;
--> adicionei um navbar com menu Toggle (conhecido como Hamburguer Lines);
+- HTML
+- CSS
+- JavaScript
 
--> apliquei uma paleta de cores escolhida por mim, do site: https://paletadecores.com/
-melhoria esta que deu mais beleza e um designer mais bonito ao projeto;
+## Como Usar
 
--> adicionei + 2 campos de informação, com temperatura minima e máxima;
+Basta digitar o nome da cidade desejada no campo de pesquisa e pressionar Enter para ver as informações de clima atualizadas.
 
-Logo iriei postar mais melhorias nesses projeto.
-E também, irei postar mais aplicações semelhantes a esta para composição do meu Portifólio.
+## Pré-requisitos
 
-Att. WillianDDaniel
+Não há pré-requisitos específicos para executar este projeto. Basta abrir o arquivo `index.html` em qualquer navegador moderno.
 
-------------------------------------------------------------------------------------------
+## Contribuindo
 
-Hello World!
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias, correções de bugs, ou sugestões.
 
-This is my first project, and also the first time I use GitHub.
-I've been studying Front-End Development for some time.
+## Licença
 
-During a class, the teacher proposed the creation of a website, so that we could learn in practice how to create websites.
+Este projeto está licenciado sob a Licença MIT.
 
-This website aims to provide information about the climate and temperature of a city, through a search for the name of the city. Using a public API called OpenWeatherMap to perform the query.
 
-With that, I decided to create my own version, to put into practice what I have been learning.
-
-Technologies used in the Project:
--> HTML, CSS AND JAVASCRIPT;
-
-API used in the Project:
--> website: https://openweathermap.org/;
--> Current Weather Data API;
-
-Extras: Improvements I made to the project, in relation to the class:
--> I added a more responsive layout with fewer lines of code;
--> I added a navbar with Toggle menu (known as Hamburguer Lines);
-
--> I applied a color palette chosen by me, from the website: https://paletadecores.com/
-This improvement gave more beauty and a more beautiful design to the project;
-
--> I added + 2 information fields, with minimum and maximum temperature;
-
-I will soon post more improvements to these projects.
-And also, I will post more applications similar to this one to compose my Portfolio.
-
-Att. WillianDDaniel
+Desenvolvido com ❤️ por Willian D. Daniel
