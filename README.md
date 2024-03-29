@@ -6,6 +6,10 @@ Este é um projeto simples que busca a temperatura atual, máxima e mínima de u
 
 Este projeto foi desenvolvido como parte do meu aprendizado em desenvolvimento web. É uma adaptação e melhoramento de um projeto que fiz em aula, e um dos meus primeiros projetos pessoais.
 
+## Screenshot
+
+![https://animecharacters.sirv.com/screenshots/Consulta-Clima-Tempo.jpg](https://animecharacters.sirv.com/screenshots/Consulta-Clima-Tempo.jpg)
+
 ## Funcionalidades
 
 - Busca a temperatura atual de uma cidade específica
