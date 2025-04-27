@@ -7,3 +7,7 @@ document.getElementById('toggle-menu-button').addEventListener('click', () => {
   document.getElementById('line-bottom').classList.toggle('line-bottom-checked');
   document.getElementById('menu').classList.toggle('menu-hidden');
 });
+
+document.getElementById('header-search-button').addEventListener('click', () => {
+  document.getElementById('search-container').classList.toggle('search-container-hidden');
+});
