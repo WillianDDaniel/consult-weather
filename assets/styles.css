@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: relative;
+  background-color: #151515;
+  height: 75px;
+}
+
+.header .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100vh;
+  background: #FFFFFF;
+  transition: all 0.5s ease;
+}
+
+.header .menu-hidden {
+  left: -110%;
+}
+
+.toggle-menu-button {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 33px;
+  height: 24px;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.toggle-menu-button .line {
+  display: block;
+  width: 33px;
+  height: 4.2px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  transform-origin: 4px 0px;
+  transition:
+    transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    opacity 0.55s ease;
+}
+
+.toggle-menu-button .line-top-checked {
+  transform: rotate(45deg) translate(-2px, -1px);
+  transform-origin: 0% 0%;
+  background: #232323;
+}
+
+.toggle-menu-button .line-middle-checked {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.toggle-menu-button .line-bottom-checked {
+  transform: rotate(-45deg) translate(0, -1px);
+  transform-origin: 0% 100%;
+  background: #232323;
+}

@@ -2,95 +2,28 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Consulta Clima e Temperatura pelo nome da Cidade">
-    <meta name="keywords" content="clima, Temperatura, consultar clima, temperatura atual, temperatura na minha cidade">
-    <meta name="author" content="Willian Deiviti Daniel">
+  <link rel="stylesheet" href="./assets/styles.css">
 
-    <title>Consultar Clima e Temperatura</title>
+
+  <title>Clima e Previsão do Tempo | Consult Weather</title>
 </head>
 
 <body>
-    <div class="navigation">
-        <nav role="navigation">
-            <div id="menuToggle">
-                <!--
-                    Este input fica escondido, servindo para ser clicado e receber o comando
-                    para chamar o menu oculto.
-                -->
-                <input type="checkbox" />
+  <header class="header">
+    <button class="toggle-menu-button" id="toggle-menu-button">
+      <span class="line" id="line-top"></span>
+      <span class="line" id="line-middle"></span>
+      <span class="line" id="line-bottom"></span>
+    </button>
 
-                <!--
-                    Spans utilizado para simular um menu hamburguer
-                -->
-                <span></span>
-                <span></span>
-                <span></span>
+    <nav class="menu menu-hidden" id="menu">
+    </nav>
+  </header>
 
-                <ul id="menu" class="menu">
-                    <a href="#">
-                        <li>Autor</li>
-                    </a>
-                    <a href="https://github.com/WillianDDaniel/consult-weather" target="_blank">
-                        <li>Repositório</li>
-                    </a>
-                </ul>
-            </div>
-
-        </nav>
-    </div>
-
-    <header>
-        <div class="container">
-
-            <div class="input">
-                <h2>Consulte o clima em sua cidade!</h2>
-                <input placeholder=" Digite sua cidade..." class="input-cidade">
-                <button class="button" onclick="pesquisarTemperatura()"><img src="./img/pesquisa-appClima.png"
-                        alt=""></button>
-            </div>
-
-
-            <h3 class="cidade">Faça uma Pesquisa</h3>
-
-
-            <div class="temp-atual">
-
-                <h4>Temperatura atual</h4>
-                <p class="temp">??</p>
-
-            </div>
-
-            <div class="temp-max-min">
-
-                <h5>Temp Máx</h5>
-                <p class="temp-max">??</p>
-
-            </div>
-
-            <div class="temp-max-min">
-
-                <h5>Temp Min</h5>
-                <p class="temp-min">??</p>
-
-            </div>
-
-            <div class="tempo-clima">
-
-                <p class="umidade">Umidade: ??</p>
-                <img src="https://openweathermap.org/img/wn/04n.png" class="img-previsao">
-                <p class="texto-previsao">??</p>
-
-            </div>
-
-        </div>
-    </header>
-    <script src="./scripts.js"></script>
+  <script src="./assets/scripts.js"></script>
 </body>
 
 </html>
