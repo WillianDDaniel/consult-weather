@@ -45,4 +45,4 @@ function getWeatherIcon(iconCode) {
 }
 
 // getWeather();
-getForecast();
+// getForecast();
