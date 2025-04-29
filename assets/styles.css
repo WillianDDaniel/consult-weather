@@ -154,13 +154,11 @@ body {
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .current-weather-section {
   background-color: #185E89;
   padding: 20px;
-  margin-bottom: 20px;
   text-align: center;
   color: #FFFFFF;
 }
@@ -218,6 +216,10 @@ body {
   font-size: 1rem;
 }
 
+.pressure {
+  border-bottom: 1px solid #e0e0e0;
+}
+
 .wind dt, .humidity dt, .pressure dt {
   font-weight: normal;
   margin: 0;
@@ -225,6 +227,75 @@ body {
 
 .wind dd, .humidity dd, .pressure dd {
   margin: 0;
+}
+
+.hourly-forecast-section {
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.hourly-forecast-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0 0 12px 5px;
+  color: #404040;
+}
+
+.hourly-forecast-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 5px 0;
+  scrollbar-width: thin;
+  scrollbar-color: #d0d0d0 transparent;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+/* Estiliza a barra de rolagem para navegadores webkit */
+.hourly-forecast-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.hourly-forecast-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.hourly-forecast-container::-webkit-scrollbar-thumb {
+  background-color: #d0d0d0;
+  border-radius: 20px;
+}
+
+.hourly-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 70px;
+  padding: 10px 5px;
+  border-radius: 8px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.hourly-item:hover {
+  transform: translateY(-3px);
+  background-color: rgba(240, 240, 240, 0.7);
+}
+
+.hourly-time {
+  font-size: 0.85rem;
+  color: #505050;
+  margin-bottom: 5px;
+}
+
+.hourly-icon {
+  width: 35px;
+  height: 35px;
+  margin: 3px 0;
+}
+
+.hourly-temp {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 5px;
 }
 
 .forecast-section {
@@ -250,4 +321,8 @@ body {
 .forecast-card img {
   width: 60px;
   height: 60px;
+}
+
+.q {
+  color: #000;
 }
