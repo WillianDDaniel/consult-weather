@@ -164,27 +164,27 @@ body {
 }
 
 .current-weather-title {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .current-weather-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .temperature {
-  font-size: 3.5rem;
+  font-size: 3.7rem;
   font-weight: 600;
   margin-right: 15px;
 }
 
 .weather-icon {
-  width: 70px;
-  height: 70px;
+  width: 75px;
+  height: 75px;
 }
 
 .feels-like-container {
@@ -201,7 +201,7 @@ body {
 }
 
 .feels-like {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .weather-details {
@@ -237,7 +237,7 @@ body {
 .hourly-forecast-title {
   font-size: 1.1rem;
   font-weight: 500;
-  margin: 0 0 12px 5px;
+  margin: 0 0 12px 12px;
   color: #404040;
 }
 
@@ -308,7 +308,7 @@ body {
 
 .forecast-card {
   flex: 0 0 auto;
-  width: 120px;
+  width: 110px;
   padding: 10px 0;
   border: 1px solid #b0b0b0;
   color: #232323;
