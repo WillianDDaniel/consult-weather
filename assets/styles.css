@@ -251,7 +251,6 @@ body {
   padding-bottom: 10px;
 }
 
-/* Estiliza a barra de rolagem para navegadores webkit */
 .hourly-forecast-container::-webkit-scrollbar {
   height: 6px;
 }
