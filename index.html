@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="./assets/styles.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
   <title>Clima e Previsão do Tempo | Consult Weather</title>
 </head>
@@ -47,8 +50,75 @@
     </div>
   </header>
 
+  <main class="main">
+    <section class="current-weather-section">
+      <h1 class="current-weather-title">Tempo agora em São Paulo, SP</h1>
 
-  <script src="./assets/scripts.js"></script>
+      <div class="current-weather-container">
+        <span class="temperature" aria-label="temperatura atual">30°</span>
+        <img class="weather-icon" src="./assets/images/weather-icons/01d.png" alt="Céu limpo">
+      </div>
+
+      <div class="feels-like-container">
+        <img class="feels-like-icon" src="./assets/images/temperature-icon.png" alt="">
+        <span class="feels-like">Sensação: 28°</span>
+      </div>
+
+      <dl class="weather-details">
+        <div class="wind">
+          <dt>Vento:</dt>
+          <dd>12km/h</dd>
+        </div>
+
+        <div class="humidity">
+          <dt>Umidade:</dt>
+          <dd>50%</dd>
+        </div>
+
+        <div class="pressure">
+          <dt>Pressão:</dt>
+          <dd>1013hPa</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="forecast-section">
+      <h2 class="visually-hidden">Previsão para os próximos dias</h2>
+      <div class="forecast-container">
+        <article class="forecast-card">
+          <h3 class="forecast-date">Ter.</h3>
+          <img class="forecast-icon" src="./assets/images/weather-icons/01d.png" alt="Céu limpo">
+          <p class="forecast-temperature">30°/11°</p>
+        </article>
+
+        <article class="forecast-card">
+          <h3 class="forecast-date">Qua.</h3>
+          <img class="forecast-icon" src="./assets/images/weather-icons/01d.png" alt="Céu limpo">
+          <p class="forecast-temperature">30°/11°</p>
+        </article>
+
+        <article class="forecast-card">
+          <h3 class="forecast-date">Qui.</h3>
+          <img class="forecast-icon" src="./assets/images/weather-icons/01d.png" alt="Céu limpo">
+          <p class="forecast-temperature">30°/11°</p>
+        </article>
+
+        <article class="forecast-card">
+          <h3 class="forecast-date">Sex.</h3>
+          <img class="forecast-icon" src="./assets/images/weather-icons/01d.png" alt="Céu limpo">
+          <p class="forecast-temperature">30°/11°</p>
+        </article>
+
+        <article class="forecast-card">
+          <h3 class="forecast-date">Sáb.</h3>
+          <img class="forecast-icon" src="./assets/images/weather-icons/01d.png" alt="Céu limpo">
+          <p class="forecast-temperature">30°/11°</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src=" ./assets/scripts.js"></script>
 </body>
 
 </html>
