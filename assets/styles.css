@@ -4,7 +4,10 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #FFFFFF;
+}
+
+body {
+  min-height: 100vh;
 }
 
 .header {
@@ -146,9 +149,12 @@
 }
 
 .main {
-  max-width: 600px;
+  height: calc(100vh - 75px);
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .current-weather-section {
@@ -156,6 +162,8 @@
   padding: 20px;
   margin-bottom: 20px;
   text-align: center;
+  color: #FFFFFF;
+  flex: 1;
 }
 
 .current-weather-title {
@@ -220,6 +228,38 @@
   margin: 0;
 }
 
+.daytime-periods-section {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.period {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 10px 5px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #505050;
+  text-transform: capitalize;
+  transition: background-color 0.2s ease;
+}
+
+.period:hover {
+  background-color: rgba(240, 240, 240, 0.8);
+}
+
+.period img.forecast-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
+}
+
 .forecast-section {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 12px;
@@ -242,6 +282,8 @@
   min-width: 80px;
   padding: 10px;
   transition: transform 0.2s ease;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
 }
 
 .forecast-card:hover {
