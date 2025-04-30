@@ -229,16 +229,9 @@ body {
 }
 
 .daytime-periods-section {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 10px 10px;
-  margin: 15px 0;
-  margin-left: 10px;
-}
-
-.daytime-periods-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 15px;
+  background-color: rgba(239, 239, 239, 0.8);
+  padding: 20px 10px 10px 10px;
+  margin-left: 5px;
 }
 
 .daytime-periods-title {
@@ -246,6 +239,13 @@ body {
   font-weight: 500;
   margin: 0 0 12px 12px;
   color: #404040;
+  text-decoration: underline;
+}
+
+.daytime-periods-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
 }
 
 .period {
@@ -276,6 +276,7 @@ body {
 .hourly-forecast-section {
   border-radius: 12px;
   padding: 0px 15px 15px 15px;
+  margin-top: 15px;
 }
 
 .hourly-forecast-title {
@@ -283,6 +284,7 @@ body {
   font-weight: 500;
   margin: 0 0 12px 12px;
   color: #404040;
+  text-decoration: underline;
 }
 
 .hourly-forecast-container {
@@ -347,21 +349,22 @@ body {
   display: flex;
   overflow-x: auto;
   width: 100%;
-  background: #f5f5f5;
+  background: #185E89;
 }
 
 .forecast-card {
   flex: 0 0 auto;
   width: 110px;
   padding: 10px 0;
-  border: 1px solid #b0b0b0;
-  color: #232323;
+  border-right: 1px solid #dfdfdf;
+  border-left: 1px solid #dfdfdf;
+  color: #FFFFFF;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .forecast-card img {
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
 }
